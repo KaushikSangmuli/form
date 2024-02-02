@@ -12,3 +12,9 @@ function submitForm() {
     // You can also redirect the user to another page or perform other actions as needed
   }
   
+  // Storing data in local storage
+localStorage.setItem("username", "John");
+
+// Retrieving data from local storage
+var storedUsername = localStorage.getItem("username");
+console.log("Stored Username: " + storedUsername);
