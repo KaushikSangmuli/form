@@ -7,7 +7,7 @@ function submitForm() {
     localStorage.setItem('address', address);
   
     // Optionally, you can provide feedback to the user
-    alert('Information stored in local storage.');
+    alert('Thank You for Submitting the Information');
   
     // You can also redirect the user to another page or perform other actions as needed
   }
